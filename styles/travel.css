@@ -1,3 +1,526 @@
 *{
     font-family: 'Mulish', sans-serif;
 }
+
+/* body{
+    width: 100%;
+} */
+
+/* header */
+/* nav style */
+ /* nav{
+    display: flex;
+     justify-content: space-around; 
+    align-items:center;
+    gap: 200px;
+
+} */
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+ .section{
+    display: flex;
+    gap: 12px;
+
+} 
+   nav > ul{
+    display: flex;
+     gap: 2rem; 
+} 
+nav li{
+    list-style: none;
+    margin-right: 35px;
+   
+    font-weight: 500;
+    font-size: 1rem;
+    /* display: flex; */
+   
+}
+nav li a{
+    text-decoration: none;
+    color:  #424242;
+text-align: center;
+/* gap: 0px; */
+/* justify-items: end; */
+
+}
+header , body{
+    width: 98%;
+}
+ .nav-img{
+    width: 48px;
+height: 56.008px;
+flex-shrink: 0;
+margin-left: 130px;
+margin-top: 30px;
+padding-bottom: 0px;
+
+}
+.section-tittle{
+    color: #131318;
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+
+}     
+.home-color{
+    color: #FF5400;
+}
+
+ 
+.banner{
+    background-image: url(../B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+     width: 100%; 
+     height: 70vh; 
+
+/* border-radius: 10px;
+
+margin-left: 165px;
+margin-right: 135px;
+padding-top: 10px; */
+/* background-size: cover; */
+/* background-position: center;
+background-attachment: fixed; */
+
+}
+/* shared contents */
+.big-text-design{
+    color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+padding-top: 100px;
+}
+.small-text-design{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+text-align: center;
+}
+ .btn-primary{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+   
+border-radius: 8px;
+background: #FF5400;
+ }
+ .selection, .search{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+   
+border-radius: 8px;
+background:white;
+/* margin-left: 180px;
+padding-left: 10px;
+gap: 20px; */
+ }
+
+ /* main section starts */
+main{
+    max-width: 1440px;
+    /* margin: 70px auto; */
+}
+.destination-select{
+   
+
+margin-left: 300px; 
+margin-top: -200px;
+/* padding-bottom: 300px; */
+
+/* display: inline-flex; */
+/* padding: 16px; */
+/* align-items: flex-start; */
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+height: 85px;
+width: 850px;
+padding-top: 27px;
+padding-left: 30px;
+/* align-items: center; */
+/* margin-top: -700px;
+padding-top: -700px; */
+
+} 
+.destination{
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+display: flex;
+justify-content: space-between;
+align-content: center;
+gap: 40px;
+}
+
+.tours-container{
+    display: flex;
+    padding-top: 200px;
+}
+.tours-content{
+    margin-left: 165px;
+    margin-right: 165px;
+}
+.tours-tittle{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: start;
+}
+.tours-description{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.tours-img-container{
+    width: 640px;
+height: 550px;
+flex-shrink: 0;
+margin-right: 30px;
+/* gap: 30px; */
+}
+.tours-container li{
+    text-align: start;
+    margin-left: -25px;
+}
+
+/* .choose-destination, .tours-tittle{
+     text-align: center; 
+    padding-top: 30px;
+} */
+
+/* choose your destination 10 11 part */
+.choose-your-destination{
+    text-align: center;
+}
+.choose-your-destination-tittle{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.choose-your-destination-description{color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+
+}
+
+
+.tours-img-container{
+/* display: flex; */
+    align-items: center;
+    gap: 30px;
+     /* margin-left: 165px; 
+     margin-right: 170px; */
+}
+.choose-img-container-1{
+    display: flex;
+    width: 100%;
+    margin-left: 135px;
+    gap: 30px;
+    padding-bottom: 20px;
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr);
+gap: 1.5rem;
+margin-left: 100px; */
+/* width: 573px;
+height: 300px;
+flex-shrink: 0; */
+}
+.choose-img-container-2{
+    display: flex;
+    width: 100%;
+    margin-left: 135px;
+    gap: 30px;
+    padding-bottom: 20px;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr);
+gap: 1.5rem;
+margin-left: 100px; */
+}
+.choose-img-container-3{
+    display: flex;
+    width: 100%;
+    margin-left: 135px;
+    gap: 30px;
+    padding-bottom: 20px;
+    /* display: grid;
+    grid-template-columns:repeat(2,1fr);
+gap: 1.5rem;
+margin-left: 100px; */
+/* width: auto; */
+}
+
+/* why choose us */
+.why-choose-us{
+    text-align: center;
+}
+.why-choose-us-tittle{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.why-choose-us-description{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+
+
+.choose-us{
+    /* align-items: center; */
+    margin: 170px;
+    margin-top: 500px;
+}
+.cart-starts{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.cart-titte{
+ 
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+
+}
+.choose-us-cart-container-1{
+ display: flex;  
+/* align-items: center; */
+ justify-content: space-around;
+/* font-size: 1.25rem;  */
+/* Stransform: rotate(90deg); */
+/* padding: 30px;
+display: grid;
+    grid-template-columns: repeat(2, 1fr);
+gap: 1.5rem; */
+
+}
+.choose-us-cart-container-2{
+    /* grid-template-columns: 1fr;
+   text-align: center; */
+    /* display: grid;
+    align-items: center; */
+align-items: center;
+ margin-left: 200px; 
+
+
+}
+
+    .cart1{
+        /* justify-items: center; */
+        /* justify-content: space-around; */
+       
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+        width: 573px;
+        height: 284px;
+      
+         /* align-items: center; */
+         /* text-align: center; */
+          padding-top: 30px; 
+          padding-left: 30px;
+         
+}
+.cart2{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding-top: 30px; 
+padding-left: 30px;
+width: 573px;
+        height: 284px;
+}
+
+
+.cart3{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding-top: 30px; 
+padding-left: 30px;
+width: 573px;
+        height: 284px;
+}
+
+.lost-img-cintainer{
+    align-items: center;
+    gap: 30px;
+    width: 540px;
+height: 550px;
+flex-shrink: 0;
+border-radius: 16px;
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+/* newsletter and subscribe btn */
+.newsletter-form{
+    width: 393px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+
+
+}
+.sub-btn{
+    width: 393px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+margin-left: 37px;
+}
+ .newsletter{
+    width: 474px;
+height: 422px;
+flex-shrink: 0;
+
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid #FF5400;
+margin-left:135px;
+display: flex;
+justify-content: space-between;
+gap: 200px;
+} 
+
+.newsletter-text , .newsletter-email{
+    width: 393px;
+height: 52px;
+margin-left: 35px;
+
+
+}
+.hr{
+    width: 393px;
+height: 1px;
+}
+
+
+
+/* image for newsletter part */
+.ni{    
+    width: 672px;
+height: 422px;
+flex-shrink: 0;
+border-radius: 16px;
+
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+/* .newsletter-flex1{
+    display: flex;
+} */
+
+
+
+/* footer start */
+.footer-div1{
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.footer-img{
+    display: flex;
+    width: 174.322px;
+height: 24px;
+flex-shrink: 0;
+justify-content: space-around;
+justify-content: space-between;
+margin-left: 300px;
+}
+
+.footer-hr{
+    margin-top: 8px;
+}
+
+.footer-main{
+    background: rgba(19, 19, 24, 0.05);
+    width: 1440px;
+height: 502px;
+flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+ /* responsive styles */
+/* mobile devices */
+@media screen and (max-width: 600px){
+    header{
+        padding: 10px;
+    } 
+    nav, 
+    .section, .tours-container, .destination,  .section-tittle
+
+    {
+        flex-direction: column;
+        padding: 10px;
+    }
+    main{
+        
+            padding: 10px;
+     
+    }
+    /* .nav-img{
+        width: 80%;
+        flex-direction: column;
+    }
+ */
+ /* .banner{
+    margin: 100px;
+ } */
+
+}

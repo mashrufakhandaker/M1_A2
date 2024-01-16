@@ -4,23 +4,198 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dream Travel</title>
-    <link rel="stylesheet" href="travel.css">
+    <link rel="stylesheet" href="styles/travel.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <head>
-        <nav>
+<header>
+    <!-- logo and tittle -->
+      <nav class="nav-container">
+         <div class="section"> 
+        <img class="nav-img" src="B9A2-Hero-Travel/Images/Group 40071 (2).png" alt="">
+        <h3 class="section-tittle">Dream <span>Travels</span></h3>
+      </div>  
+      
+    <ul>
+        <li><a class="home-color" href="">Home</a></li>
+        <li><a href="">Packages</a></li>
+        <li><a href="">Testimonial</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
 
-        </nav>
-    </head>
+       </nav>
+       <!-- banner img and text paragraph -->
+        <div class="banner">
+            <h1 class="big-text-design">Explore Your Travel</h1>
+            <p class="small-text-design">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+        </div>
+
+<!-- banner destination feild select -->
+        <section class="destination-select">
+            <div class="destination">
+<input class="search"placeholder="   Where go" type="search" name="Where go" id="where go">
+<select class="selection" name="selection" required>
+    <option value="" disabled selected hidden>     When</option>
+    <option value="Tour">1</option>
+    <option value="Trip">2</option>
+    <option value="Day-tour">3</option>
+    <option value="Month-tour">4</option>
+  </select>
+
+<select class="selection" name="select-type" required>
+    <option value="" disabled selected hidden>Select Type</option>
+    <option value="Tour">Tour</option>
+    <option value="Trip">Trip</option>
+    <option value="Day-tour">Day-tour</option>
+    <option value="Month-tour">Month-tour</option>
+  </select>
+  <button class="btn-primary">Find Now</button>
+</div>
+      </section>
+    </header>
         <main>
+<section class="tours-container">
+    <div class="tours-content">
+        <h3 class="tours-tittle">Our Popular Tours</h3>
+        <p class="tours-description">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.s</p>
+        <ul>
+            <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+            <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+            <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+        </ul>
+        <p class="tours-description">Amet consectetur. Vulputate commodo felis molestie risus 
+            ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
+        <button class="btn-primary">Read More</button>
 
+    </div>
+<div class="tours-img-container">
+    <img src="B9A2-Hero-Travel/Images/Rectangle 4.png" alt="">
+</div>
+</section>
+<!-- choose you destination -->
+
+<section>
+    <div class="choose-your-destination">
+    <h3 class="choose-your-destination-tittle">Choose Your Destination</h3>
+    <p class="choose-your-destination-description">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+
+    </div>
+    <div class="tours-img-container">
+        <div class="choose-img-container-1">
+            <img src="B9A2-Hero-Travel/Images/Rectangle 5.png" alt="">
+            <img src="B9A2-Hero-Travel/Images/Rectangle 8 (1).png" alt="">
+        </div>
+        <div class="choose-img-container-2">
+<img src="B9A2-Hero-Travel/Images/Rectangle 6.png" alt="">
+<img src="B9A2-Hero-Travel/Images/Rectangle 7.png" alt="">
+<img src="B9A2-Hero-Travel/Images/Rectangle 9.png" alt="">
+        </div>
+        <div class="choose-img-container-3">
+            <img src="B9A2-Hero-Travel/Images/Rectangle 10.png" alt="">
+            <img src="B9A2-Hero-Travel/Images/Rectangle 11.png" alt="">
+        </div>
+
+    </div>
+</section>
+
+<!-- why choose us -->
+<section class="choose-us">
+    <div class="why-choose-us">
+    <h3 class="why-choose-us-tittle">Why Choose Us</h3>
+<p class="why-choose-us-description">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+</div>
+<div class="choose-us-cart-container-1">
+    <!-- <div class="cc"> -->
+    <div class="cart1">
+        <img src="B9A2-Hero-Travel/Images/hotel.png" alt="">
+        <h2 class="cart-starts">Handpicked Hotels</h2>
+        <p class="cart-tittle">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+</div>
+<div class="cart2">
+    <img src="B9A2-Hero-Travel/Images/map.png" alt="">
+    <h2 class="cart-starts">Handpicked Hotels</h2>
+    <p class="cart-tittle">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+</div>
+</div>
+<div class="choose-us-cart-container-2">
+<div class="cart3">
+    <img src="B9A2-Hero-Travel/Images/ribon.png" alt="">
+        <h2 class="cart-starts">Handpicked Hotels</h2>
+        <p class="cart-tittle">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+</div>
+</div>
+</section>
+<!-- To Get LOst -->
+
+<section class="tours-container">
+    <div class="tours-content">
+        <h3 class="tours-tittle">Our Popular Tours</h3>
+        <p class="tours-description">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.s</p>
+        <ul>
+            <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+            <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+            
+        </ul>
+        <button class="btn-primary">See More</button>
+
+    </div>
+<div class="lost-img-container">
+    <img src="B9A2-Hero-Travel/Images/mountain.png" alt="">
+</div>
+</section>
+<!-- subscribe and Newsletter -->
+
+<section class="newsletter">
+    <div class="newsletter-flex">
+        <div class="newsletter-flex1">
+    <h3 class="tours-tittle">Newsletter</h3>
+    <p class="tours-description">Get your daily dose of travel news & tips. Sign up today!</p>
+</div>
+    <hr class="hr">
+    <div class="newsletter-form">
+        <input type="text" placeholder="     Enter Your Name"  class="newsletter-text">
+        <input type="email" name="email" id="email" placeholder="     Enter Your Email"  class="newsletter-email">
+<button class="sub-btn">Subscribe</button>
+    </div>
+</div>
+    <div class="newsletter-img">
+<img  class="ni"  src="B9A2-Hero-Travel/Images/Rectangle 8 (1).png" alt="">
+    </div>
+    <div class="newsletter-2-img">
+
+    </div>
+</div>
+
+</section>
         </main>
   
+
+
+
+
+        <!-- footer start -->
 <footer>
-    
+    <div class="footer-main">
+<div class="footer-div1">
+<img src="B9A2-Hero-Travel/Images/Group 40071 (2).png" alt="">
+<h3 class="tours-tittle">Dream Travels</h3>
+</div>
+<p class="tours-description">Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+<div class="footer-img">
+<img src="B9A2-Hero-Travel/Images/tweet.png" alt="">
+<img src="B9A2-Hero-Travel/Images/insta.png" alt="">
+<img src="B9A2-Hero-Travel/Images/fb.png" alt="">
+<img src="B9A2-Hero-Travel/Images/github.png" alt="">
+</div>
+<hr class="footer-hr">
+
+    </div>
+    <div>
+        <p>2017, All Rights Reserved.</p>
+    </div>
 </footer>
 </body>
 </html>
